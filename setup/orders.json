@@ -1,0 +1,54 @@
+[
+        {
+                "items" : [
+                        {
+                                "product" : {
+                                        "_id" : "5fc18ba7e90e9e19c87cc882",
+                                        "name" : "Fantastic Cotton Chair",
+                                        "price" : 102,
+                                        "description" : "The Football Is Good For Training And Recreational Purposes"
+                                },
+                                "quantity" : 1
+                        }
+                ],
+                "customerId" : "5fc18bdb01e1bd4970f23482"
+        },
+        {
+                "items" : [
+                        {
+                                "product" : {
+                                        "_id" : "5fc18ba7e90e9e19c87cc882",
+                                        "name" : "Fantastic Cotton Chair",
+                                        "price" : 102,
+                                        "description" : "The Football Is Good For Training And Recreational Purposes"
+                                },
+                                "quantity" : 4
+                        }
+                ],
+                "customerId" : "5fc18bdb01e1bd4970f23482"
+        },
+        {
+                "items" : [
+                        {
+                                "product" : {
+                                        "_id" : "5fc18ba7e90e9e19c87cc882",
+                                        "name" : "Fantastic Cotton Chair",
+                                        "price" : 102,
+                                        "description" : "The Football Is Good For Training And Recreational Purposes"
+                                },
+                                "quantity" : 1
+                        },
+                        {
+
+                                "product" : {
+                                        "_id" : "5fc18ba7e90e9e19c87cc883",
+                                        "name" : "Lovely Marble Car",
+                                        "price" : 909,
+                                        "description" : "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
+                                },
+                                "quantity" : 1
+                        }
+                ],
+                "customerId" : "5fc18bdb01e1bd4970f23482"
+        }
+]

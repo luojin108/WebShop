@@ -1,0 +1,257 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	/* The image used */
+	background-image: url('https://images.pexels.com/photos/1479192/pexels-photo-1479192.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+
+	/* Set a specific height */
+	min-height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header,
+main,
+footer {
+	padding: 1rem 2.5rem;
+}
+
+header,
+footer {
+	background: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+}
+
+footer {
+	font-size: 1.5em;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.nav-links li {
+	padding: 0 1.5rem;
+	font-size: 1.5em;
+	overflow-wrap: break-word;
+	text-align: center;
+}
+
+.title {
+	padding: 15rem 2rem;
+	background-color: white;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.form {
+	margin: 1rem auto;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	min-width: 65rem;
+	padding: 1rem;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background: rgba(255, 255, 255, 0.521);
+}
+
+.form-group {
+	height: 5rem;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 3fr;
+	margin-bottom: 1rem;
+}
+
+.second-column {
+	display: grid;
+	grid-column: 2;
+}
+
+input {
+	padding: 0.5rem;
+	font-size: 1.1em;
+}
+
+label {
+	justify-self: right;
+	align-self: center;
+	font-size: 1.2em;
+	text-align: right;
+}
+
+button {
+	/* background-color: #ffffff; */
+	color: white;
+	padding: 1.5rem 2rem;
+	border: none;
+	cursor: pointer;
+	font-size: 1.1em;
+}
+
+#btnRegister {
+	background-color: rgb(167, 243, 96);
+}
+
+button:hover {
+	background-color: rgba(0, 255, 255, 0.808);
+}
+
+.background-lightgreen,
+.background-red {
+	position: fixed;
+	/* margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+	top: 0px;
+	right: 10px;
+	width: 300px;
+	height: fit-content;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 5px;
+}
+
+.background-lightgreen {
+	background-color: rgb(94, 252, 94);
+}
+
+.background-red {
+	background-color: red;
+}
+
+h1,
+a {
+	font-family: Copperplate, Papyrus, fantasy;
+	color: rgb(255, 255, 255);
+	/* background-color: rgba(230, 127, 124, 0.418); */
+}
+.other-links {
+	background-color: rgba(0, 0, 0, 0.308);
+	display: inline-block;
+	align-content: center;
+	padding: 0.5em 0.2em 0.8em 0.5em;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(50, 50, 53);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(65, 55, 55);
+}
+
+#cart-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+#products-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.item-row {
+	background: rgba(0, 0, 0, 0.61);
+	color: white;
+	/* display: inline-block; */
+	/* display: grid;
+	grid-template-areas:
+		'e e h e'
+		'e e e e'
+		'p a bp bm'; */
+	width: 400px;
+	margin: 10px;
+	padding: 20px;
+	height: auto;
+	max-height: fit-content;
+}
+
+.product-description {
+	height: 60px;
+	grid-area: 'd';
+	/* transition: max-height 1000ms ease-out; */
+	overflow: hidden;
+}
+.product-description:hover {
+	overflow: auto;
+}
+
+.product-name {
+	/* display: inline-block; */
+	/* grid-area: 'h'; */
+}
+
+.product-price {
+	/* display: inline-block; */
+	/* grid-area: 'p'; */
+}
+
+.product-amount {
+	display: inline-block;
+	padding: 10px;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	border-style: inset;
+	border-width: 1px;
+	grid-area: 'a';
+}
+
+.plusbtn {
+	display: inline-block;
+	grid-area: 'bp';
+}
+
+.minusbtn {
+	display: inline-block;
+	grid-area: 'bm ';
+}
+
+.product-image {
+	width: 100%;
+}
