@@ -5,7 +5,7 @@ Member1:  Jaako Rajala, jaakko.rajala@tuni.fi, 428219,
 responsible for: Project development/planning/UI/a part of readme.md
 
 Member2:  Jin Luo, jin.luo@tuni.fi, 245096, 
-responsible for: project planning, project implementation 
+responsible for: project planning, project implementation, debugging 
 
 
 
