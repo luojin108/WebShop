@@ -8,12 +8,6 @@ Member2:  Jin Luo, jin.luo@tuni.fi,
 responsible for: project planning, project implementation, debugging 
 
 
-
-# WebDev1 coursework assignment
-
-A web shop with vanilla HTML, CSS.
-
-
 ### The project structure
 
 ```
@@ -109,35 +103,6 @@ A web shop with vanilla HTML, CSS.
 ```
 
 
-## Tests and documentation
-
-
-During the last weeks of working on the project, we named several issues regarding its last stages, and used Gitlabs own issue board to document these. 
-
-We'll be using the following template to name the issues found: 
-
-1. [The link to the issue with a brief description of the issue itself as title](The issues url)
-     - [Link to the tested file with relative path as name](The files url)
-     - [Link to the tests with relative path as name](The tests url)
-
-### The Issues: 
-
-- [x] 1. [Using the database, I want there to be a valid list of products available](https://course-gitlab.tuni.fi/webdev1-2020-2021/webdev1-group-71/-/issues/2)
-     - [models\product.js](models/product.js)
-     - [test\own\models\product.test.js](/test/own/models/product.test.js)
-- [x] 2. [Using the database, I want there to be a valid list of orders available](https://course-gitlab.tuni.fi/webdev1-2020-2021/webdev1-group-71/-/issues/11)
-     - [models\order.js](models/order.js)
-     - [test\own\models\order.test.js](/test/own/models/product.test.js) 
-- [x] 3. [As a developer, I want the program to use the database products-collection when user is looking at products.](https://course-gitlab.tuni.fi/webdev1-2020-2021/webdev1-group-71/-/issues/12)
-     - [controllers\products.js](controllers/products.js)
-     - [test\own\controllers\products.test.js](test/own/controllers/products.test.js)
-- [x] 4. [As a developer, I want the program to use the database orders-collection when user is submitting orders.](https://course-gitlab.tuni.fi/webdev1-2020-2021/webdev1-group-71/-/issues/13)
-     - [controllers\orders.js](controllers/orders.js)
-     - [test\own\controllers\orders.test.js](test/own/controllers/orders.test.js)
-- [x] 5. [Complete tests for own/routeHelperFuncrion.test.js](https://course-gitlab.tuni.fi/webdev1-2020-2021/webdev1-group-71/-/issues/14)
-     - [functions tested are in controllers\users.js](controllers/users.js)
-     - [functions tested are in controllers\products.js](controllers/products.js)
-     - [test\own\routeHelperFuncrion.test.js](test/own/routeHelperFuncrion.test.js)
 
 
 
