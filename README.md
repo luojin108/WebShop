@@ -1,10 +1,10 @@
 =======
 # Group 
 
-Member1:  Jaako Rajala, jaakko.rajala@tuni.fi, 428219, 
+Member1:  Jaako Rajala, jaakko.rajala@tuni.fi, 
 responsible for: Project development/planning/UI/a part of readme.md
 
-Member2:  Jin Luo, jin.luo@tuni.fi, 245096, 
+Member2:  Jin Luo, jin.luo@tuni.fi, 
 responsible for: project planning, project implementation, debugging 
 
 
