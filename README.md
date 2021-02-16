@@ -7,7 +7,7 @@ https://webdev108.herokuapp.com/
 
 Member1:  Jaako Rajala, jaakko.rajala@tuni.fi, 
 
-Member2:  Jin Luo, jin.luo@tuni.fi, 
+Member2:  Jin Luo, jin.luo@tuni.fi and luojin108@hotmail.com, 
 
 
 ### The project structure
