@@ -6,10 +6,8 @@ https://webdev108.herokuapp.com/
 # Group 
 
 Member1:  Jaako Rajala, jaakko.rajala@tuni.fi, 
-responsible for: Project development/planning/UI/a part of readme.md
 
 Member2:  Jin Luo, jin.luo@tuni.fi, 
-responsible for: project planning, project implementation, debugging 
 
 
 ### The project structure
